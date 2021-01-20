@@ -15,6 +15,8 @@
 		8C4236AC25B8149B0055248A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4236AA25B8149B0055248A /* LaunchScreen.storyboard */; };
 		8C4236B725B8149B0055248A /* TableView_Practice01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4236B625B8149B0055248A /* TableView_Practice01Tests.swift */; };
 		8C4236C225B8149B0055248A /* TableView_Practice01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4236C125B8149B0055248A /* TableView_Practice01UITests.swift */; };
+		8C4236DA25B81D7A0055248A /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4236D825B81D7A0055248A /* UserTableViewCell.swift */; };
+		8C4236DB25B81D7A0055248A /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C4236D925B81D7A0055248A /* UserTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8C4236BD25B8149B0055248A /* TableView_Practice01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableView_Practice01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4236C125B8149B0055248A /* TableView_Practice01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_Practice01UITests.swift; sourceTree = "<group>"; };
 		8C4236C325B8149B0055248A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4236D825B81D7A0055248A /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		8C4236D925B81D7A0055248A /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				8C4236A825B8149B0055248A /* Assets.xcassets */,
 				8C4236AA25B8149B0055248A /* LaunchScreen.storyboard */,
 				8C4236AD25B8149B0055248A /* Info.plist */,
+				8C4236D825B81D7A0055248A /* UserTableViewCell.swift */,
+				8C4236D925B81D7A0055248A /* UserTableViewCell.xib */,
 			);
 			path = TableView_Practice01;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4236DB25B81D7A0055248A /* UserTableViewCell.xib in Resources */,
 				8C4236AC25B8149B0055248A /* LaunchScreen.storyboard in Resources */,
 				8C4236A925B8149B0055248A /* Assets.xcassets in Resources */,
 				8C4236A725B814980055248A /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4236DA25B81D7A0055248A /* UserTableViewCell.swift in Sources */,
 				8C4236A425B814980055248A /* ViewController.swift in Sources */,
 				8C4236A025B814980055248A /* AppDelegate.swift in Sources */,
 				8C4236A225B814980055248A /* SceneDelegate.swift in Sources */,
